@@ -1,5 +1,4 @@
 import Image from "next/image";
-import React from "react";
 
 const Button = ({ type, title, icon, variant }: ButtonProps) => {
   return (
