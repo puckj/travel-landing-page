@@ -3,6 +3,7 @@ type ButtonProps = {
     title: string
     icon?: string
     variant: string
+    full?: boolean
 };
 
 type CampSiteProps = {
@@ -16,4 +17,9 @@ type FeatureItemProps = {
     title: string
     icon: string
     description: string
+}
+
+type FooterColumnProps = {
+    title: string
+    children: React.ReactNode
 }
