@@ -11,3 +11,9 @@ type CampSiteProps = {
     subtitle: string;
     peopleJoined: string;
 }
+
+type FeatureItemProps = {
+    title: string
+    icon: string
+    description: string
+}
